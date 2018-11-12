@@ -26,7 +26,7 @@ avg_profit = 0
 for info in firm_list:
     avg_profit += info.q1 + info.q2 + info.q3 + info.q4
 avg_profit /= count
-print("Средняя прибыль за год для всех: %.3f" % avg_profit)
+print("Средняя прибыль за год для всех: %.2f" % avg_profit)
 
 
 def count_firm_profit(info):
